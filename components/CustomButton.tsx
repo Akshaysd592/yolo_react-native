@@ -10,14 +10,7 @@ export default function CustomButton({text,styleColor}:{text:string,styleColor:s
             style={[styles.buttonBox,{borderColor:`${styleColor}`}]}
           >
             <Text
-              style={{
-                fontWeight: 400,
-                fontSize: 16,
-                lineHeight: 24,
-                letterSpacing: -0.17,
-                textAlign: "center",
-                color: "#FFFFFF",
-              }}
+              style={styles.buttonText}
             >
               {text}
             </Text>
